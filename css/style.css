@@ -1,0 +1,48 @@
+body {
+    background-color: #f9f2ec;
+    margin: 0 12px 0 12px;
+
+    color: #242424;
+    font-size: 16px;
+    font-family: serif;
+
+    max-width: 740;
+    overflow-wrap: break-word;
+}
+
+a {
+    color: #073178;
+
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-underline-offset: 2px;
+    text-decoration-color: #00000000;
+    text-decoration-thickness: 1px;
+    
+    transition: text-decoration-color 0.5s;
+}
+
+a:hover {
+    text-decoration-color: #6ca2ff;
+}
+
+.name-jp {
+    font-size: 22px;
+}
+
+.name-en {
+    color: #747474;
+}
+
+.email {
+    font-size: 14px;
+}
+
+.links {
+    list-style: none;
+    padding-inline-start: 24px;
+}
+
+.links li::before {
+    content: "- ";
+}
